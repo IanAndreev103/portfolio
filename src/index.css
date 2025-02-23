@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 100%;
+}
+@media (max-width: 360px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media (max-width: 280px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 560px){
+.row .col.col-6 {
+    width: 100%;
+}
+}
+@media (min-width: 360px) and (max-width: 560px) {
+  html {
+    font-size: 93%;
+  }
+}
+
